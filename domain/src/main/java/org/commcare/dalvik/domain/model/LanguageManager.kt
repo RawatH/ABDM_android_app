@@ -11,6 +11,7 @@ object LanguageManager {
             "    \"language\": \"English\"\n" +
             "  },\n" +
             "  \"app_data\": {\n" +
+            "    \"PROCEED_CLOSE\": \"Do you want to exit?\",\n" +
             "    \"VERIFY\": \"Verify\",\n" +
             "    \"START_VERIFICATION\": \"Start Verification\",\n" +
             "    \"VERIFY_OTP\": \"Verify OTP\",\n" +
@@ -101,7 +102,6 @@ enum class TranslationKey {
     ABHA_VERIFICATION,
     ABHA_CREATION,
     NO_INTERNET,
-
     TOKEN_MISSING,
     REQ_DATA_MISSING,
     AUTH_METHODS_NOT_RECEIVED,

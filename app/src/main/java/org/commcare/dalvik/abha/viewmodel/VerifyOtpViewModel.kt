@@ -6,7 +6,4 @@ import javax.inject.Inject
 
 @HiltViewModel
 class VerifyOtpViewModel @Inject constructor(verifyAadhaarOtpUseCase: VerifyAadhaarOtpUseCase) :
-    BaseViewModel() {
-
-
-}
+    BaseViewModel()
